@@ -1,7 +1,7 @@
 # ImageLoader
 自己练习码的[《Android开发艺术探索》][1]上的轻量级的ImageLoader和利用其实现的照片墙效果。
 
-ImageLoader主要实现了：
+**ImageLoader**主要实现了：
 
 > * 内存缓存
 > * 硬盘缓存
@@ -12,7 +12,11 @@ ImageLoader主要实现了：
 
 同时ImageLoader解决了ListView，GridView滑动过程中的ImageView的复用问题。
 
-照片墙的效果：
+**照片墙**的效果：
+
+
+![此处输入图片的描述][9]
+ 
 
 照片墙实现中优化了列表的卡顿，主要通过以下三个方面：
 
@@ -22,5 +26,7 @@ ImageLoader主要实现了：
 
 > * 开启硬件加速， android:hardwareAccelerated="true"。
 
+具体实现，请阅读代码。
 
 [1]: https://book.douban.com/subject/26599538/
+[9]: http://ogts8rw5s.bkt.clouddn.com/zhaopianqiang.png
