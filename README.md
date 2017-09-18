@@ -26,7 +26,7 @@
 
 > * 开启硬件加速， android:hardwareAccelerated="true"。
 
-具体实现，请阅读代码。以上内容摘自[《Android开发艺术探索》][1]。
+具体实现，请阅读代码，以上内容摘自[《Android开发艺术探索》][1]。
 
 [1]: https://book.douban.com/subject/26599538/
 [2]: http://ogts8rw5s.bkt.clouddn.com/zhaopianqiang.png
