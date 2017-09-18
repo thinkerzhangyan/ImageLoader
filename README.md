@@ -15,7 +15,7 @@
 **照片墙**的效果：
 
 
-![此处输入图片的描述][9]
+![此处输入图片的描述][2]
  
 
 照片墙实现中优化了列表的卡顿，主要通过以下三个方面：
@@ -29,4 +29,4 @@
 具体实现，请阅读代码。
 
 [1]: https://book.douban.com/subject/26599538/
-[9]: http://ogts8rw5s.bkt.clouddn.com/zhaopianqiang.png
+[2]: http://ogts8rw5s.bkt.clouddn.com/zhaopianqiang.png
