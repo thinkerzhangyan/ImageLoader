@@ -27,6 +27,11 @@ public class ImageResizer {
 
         // Decode bitmap with inSampleSize set
         options.inJustDecodeBounds = false;
+
+        options.inPreferredConfig = Bitmap.Config.RGB_565;
+        options.inPurgeable = true;
+        options.inInputShareable = true;
+
         return BitmapFactory.decodeResource(res, resId, options);
     }
 
@@ -42,6 +47,11 @@ public class ImageResizer {
 
         // Decode bitmap with inSampleSize set
         options.inJustDecodeBounds = false;
+
+        options.inPreferredConfig = Bitmap.Config.RGB_565;
+        options.inPurgeable = true;
+        options.inInputShareable = true;
+
         return BitmapFactory.decodeFileDescriptor(fd, null, options);
     }
 

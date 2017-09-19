@@ -4,7 +4,6 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Build.VERSION_CODES;
 import android.os.Environment;
@@ -112,8 +111,6 @@ public class ImageLoader {
                 e.printStackTrace();
             }
         }
-
-
     }
 
     /**
