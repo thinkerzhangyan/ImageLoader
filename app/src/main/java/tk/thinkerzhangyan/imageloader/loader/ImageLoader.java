@@ -72,7 +72,7 @@ public class ImageLoader {
         public void handleMessage(Message msg) {
             LoaderResult result = (LoaderResult) msg.obj;
             ImageView imageView = result.imageView;
-            imageView.setImageBitmap(result.bitmap);
+            //imageView.setImageBitmap(result.bitmap);
             String uri = (String) imageView.getTag(TAG_KEY_URI);
             if (uri.equals(result.uri)) {
                 imageView.setImageBitmap(result.bitmap);
